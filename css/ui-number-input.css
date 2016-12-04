@@ -1,0 +1,168 @@
+/* ui-number-input
+------------------------------------------------------------ */
+.ui-numin {
+	position: relative;
+	color: #555;
+	text-align: left;
+	display: inline-block;
+	height: 20px;
+	vertical-align: middle;
+}
+
+	/* セレクト
+------------------------------------------------------------ */
+	.ui-numin-select {
+		position: relative;
+		margin: 0;
+		padding-left: 3px;
+		background-color: #eaeaea;
+		border: solid 1px #888;
+		width: 100px;
+		height: 18px;
+		line-height: 18px;
+		border-radius: 4px;
+		font-size: 90%;
+		cursor: pointer;
+		overflow: hidden;
+		-moz-user-select:-moz-none;
+		-ms-user-select:none;
+		-webkit-user-select:none;
+		user-select:none;
+	}
+	.ui-numin-select:hover {
+		background-color: #f5f5f5;
+		border-style: outset;
+	}
+	.ui-numin-select:active {
+		background-color: #ddd;
+		border-style: inset;
+	}
+	
+	.ui-numin-select.ui-numin-open {
+		background-color: #edc;
+	}
+	
+	/* セレクトアイコン
+------------------------------------------------------------ */
+	.ui-numin-select-icon {
+		position: absolute;
+		right: 3px;
+		top: -1px;
+		width: 13px;
+		height: 15px;
+		color: #79A;
+		font-size: 80%;
+	}
+	
+	.ui-numin-select:hover .ui-numin-select-icon {
+		color: #9BC;
+	}
+	
+	/* Inner
+------------------------------------------------------------ */
+	.ui-numin-inner {
+		position: absolute;
+		list-style: none;
+		margin: 0;
+		padding: 2px;
+		overflow: auto;
+		width: 175px;
+		background-color: #ccc;
+		border: solid 1px #999;
+		min-height: 50px;
+		max-height: 500px;
+		cursor: default;
+		display: none;
+		z-index: 3000;
+		
+		-moz-user-select:-moz-none;
+		-ms-user-select:none;
+		-webkit-user-select:none;
+		user-select:none;
+		
+		-webkit-box-shadow: 0px 8px 17px 0 rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
+		box-shadow: 0px 8px 17px 0 rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
+	}
+		/* input
+------------------------------------------------------------ */
+		.ui-numin-input-container span {
+			margin: 3px;
+			padding: 5px;
+			background-color: #e0e0e0;
+		}
+		.ui-numin-input-container input {
+			margin: 2px;
+			padding: 3px;
+			text-align: right;
+			width: 115px;
+		}
+		
+		/* number
+------------------------------------------------------------ */
+		.ui-numin-number-container {
+			margin: 2px;
+			padding: 0;
+			list-style: none;
+		}
+		
+			/* numbers
+------------------------------------------------------------ */
+			.ui-numin-number-container li {
+				font-size: 110%;
+				color: #333;
+				background-color: #eee;
+				border: solid 1px #aaa;
+				margin: 0 1px 1px 0;
+				padding-left: 3px;
+				width: 50px;
+				height: 30px;
+				line-height: 30px;
+				float: left;
+				cursor: pointer;
+				overflow: hidden;
+				text-align: center;
+				vertical-align: middle;
+			}
+			
+			.ui-numin-number-container li:hover {
+				border-color: #888;
+				background-color: #ddd;
+			}
+			
+			.ui-numin-number-container li:active {
+				border-color: #777;
+				background-color: #ccc;
+			}
+			
+			/* number del
+------------------------------------------------------------ */
+			.ui-numin-number-container li.ui-numin-number-del {
+				border-color: #aaa;
+				background-color: #ddd;
+			}
+			.ui-numin-number-container li.ui-numin-number-del:hover  {
+				border-color: #888;
+				background-color: #ccc;
+			}
+			
+			.ui-numin-number-container li.ui-numin-number-del:active  {
+				border-color: #777;
+				background-color: #bbb;
+			}
+			
+			/* number ok
+------------------------------------------------------------ */
+			.ui-numin-number-container li.ui-numin-number-ok {
+				border-color: #aab;
+				background-color: #dde;
+			}
+			.ui-numin-number-container li.ui-numin-number-ok:hover  {
+				border-color: #889;
+				background-color: #ccd;
+			}
+			
+			.ui-numin-number-container li.ui-numin-number-ok:active  {
+				border-color: #778;
+				background-color: #bbc;
+			}
+			

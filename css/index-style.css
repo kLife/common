@@ -1,0 +1,178 @@
+/*
+ * 参考元: 四つ葉日記
+ * http://yotsubadiary3.blog.fc2.com/
+ */
+
+/* default
+------------------------------------------------------------ */
+a:link, a:visited {
+	color: #cb6500;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+br { 
+	letter-spacing : normal;
+}
+
+ul {
+	margin: 5px 0 0 30px;
+	padding: 0;
+}
+
+li {
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+
+p {
+	margin: 8px 0;
+	padding: 0;
+}
+
+/* common
+------------------------------------------------------------ */
+.common-no-select {
+	-moz-user-select:-moz-none;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+
+/* body
+------------------------------------------------------------ */
+body {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	background-color: #C0C0E8;
+	color: #336633;
+	font-family: "MS Pゴシック", "sans-serif";
+	line-height: 110%;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+#wrapper {
+	margin: 0 auto 10px auto;
+	width: 90%;
+	min-width: 800px;
+	background-color: transparent;
+	text-align: left;
+}
+
+/* header
+------------------------------------------------------------ */
+#header {
+	margin: 10px 0;
+	width: 20%;
+	height: 75px;
+	border: 0;
+	background: url("../../img/interface/logo.png") no-repeat 10px top;
+}
+
+/* main
+------------------------------------------------------------ */
+#main {
+	width: 100%;
+	overflow : visible;
+	background-color: #FFFFFF;
+	text-align: left;
+	border-radius: 10px;		 /* CSS3 */
+	-moz-border-radius: 10px;	 /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+}
+
+	#main p.pagetop {
+		text-align: right;
+ 		margin: 0 3em;
+		font-size: 100%;
+	}
+	
+	#main .topic-path {
+		font-size: 80%;
+		margin: 0 0 0.7em 6%;
+		color: #999;
+	}
+	
+	#main h1.title {
+		font-weight: 700;
+		font-size: 150%;
+		margin: 0 0 0.33em 6%;
+		color: #777;
+	}
+	
+	#main div.rs-copyright {
+		color: red;
+		font-size: 85%;
+		line-height: 120%;
+	}
+	
+	#main div.indent-content {
+		margin: 0 0 0 15px;
+	}
+
+/* footer
+------------------------------------------------------------ */
+#wrapper #footer {
+	text-align: center;
+	clear : both;
+	font-size: 12px;
+}
+
+/* フレーム
+------------------------------------------------------------ */
+.frame {
+	width: 90%;
+	font-size: 80%;
+	text-align: center;
+	border-style:outset;
+	border-width: 6px;
+	border-color:#c07050;
+	margin: 5px auto 5px auto;
+}
+
+	.fhead {
+		padding: 2px 0;
+		color: #DDD;
+		background-color: #b06040;
+	}
+	
+	.fbody {
+		text-align: left;
+		padding: 10px 10px 10px 10px;
+	}
+
+/* 更新履歴
+------------------------------------------------------------ */
+table.update-history td {
+	padding-right: 0.5em;
+	font-size: 100%;
+}
+
+/* Debug
+------------------------------------------------------------ */
+#console {
+	background: #333;
+	border: 2px solid #AAA;
+	color: #FFF;
+	display: none;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ";
+	font-size: 12px;
+	max-height: 150px;
+	overflow: auto;
+	padding: 5px;
+	width: 95%;
+	text-align: left;
+	margin: 5px;
+}

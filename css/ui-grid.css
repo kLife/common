@@ -1,0 +1,83 @@
+
+/* ui-grid
+------------------------------------------------------------ */
+.ui-grid {
+	background: #d5d5d5;
+	width: 500px;
+	height: 143px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #000;
+	
+}
+
+/* Default
+------------------------------------------------------------ */
+.ui-grid table {
+	border-collapse: collapse;
+    font-size: 12px;
+    line-height: 16px;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+.ui-grid tr {
+	
+}
+
+.ui-grid td {
+	padding: 0;
+	margin: 0;
+	border: solid 1px #aaa;
+}
+
+.ui-grid td div {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.ui-grid td div span {
+	margin: 0 3px;
+	padding: 0;
+}
+
+
+/* head
+------------------------------------------------------------ */
+.ui-grid-head {
+	overflow: hidden;
+	width: 100%;
+}
+
+	.ui-grid-head td {
+		background: #ddd;
+		text-align: center;
+	}
+	
+/* body
+------------------------------------------------------------ */
+.ui-grid-body {
+	overflow: auto;
+	overflow-y: scroll;
+	width: 100%;
+}
+	.ui-grid-body table {
+		margin-bottom: 50px;
+	}
+	
+	.ui-grid-body tr {
+		outline: 0;
+	}
+	
+	.ui-grid-body td {
+		background-color: #fff;
+		text-align: left;
+	}
+	
+	.ui-grid-body .selected-row td {
+		background: #dde;
+	}

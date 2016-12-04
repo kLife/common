@@ -1,0 +1,121 @@
+/* ツールチップ
+ * 参考:
+ * 四つ葉日記 Item Data Base
+ * http://dl.dropboxusercontent.com/u/70568694/ItemDataBase/DataBaseIndex.html
+ * 
+ * 四つ葉日記
+ * http://yotsubadiary3.blog.fc2.com/
+------------------------------------------------------------ */
+.ui-tooltip {
+	font-size: 13px;
+	line-height: 1.2;
+	overflow: visible;
+}
+	/* フレーム
+------------------------------------------------------------ */
+	.ui-tooltip table,
+	.ui-tooltip table tr,
+	.ui-tooltip table td {
+		color: #ffffff;
+		margin: 0px;
+		padding: 0px;
+		border-collapse: collapse;
+	}
+	.ui-tooltip .tooltip-frame .frame-topleft {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-topleft.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: no-repeat;
+		height: 7px;
+		width: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-topright {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-topright.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: no-repeat;
+		height: 7px;
+		width: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-bottomleft {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-bottomleft.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: no-repeat;
+		height: 7px;
+		width: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-bottomright {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-bottomright.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: no-repeat;
+		height: 7px;
+		width: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-topcenter {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-top.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: repeat-x;
+		height: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-bottomcenter {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-bottom.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: repeat-x;
+		height: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-centerleft {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-left.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: repeat-y;
+		width: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-centerright {
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-color: transparent;
+		background-image: url("../../img/interface/tooltip-border-right.gif");
+		background-position: 0px 0px;
+		background-size: auto auto;
+		background-repeat: repeat-y;
+		width: 7px;
+	}
+	.ui-tooltip .tooltip-frame .frame-content {
+		background-color: #000;
+		font-family: "MS Pゴシック", sans-serif;
+		font-size: 12px;
+		overflow: hidden;
+	}
