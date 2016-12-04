@@ -20,7 +20,7 @@ table, tr, th, td {
 	font-size: 100%;
 }
 
-br { 
+br {
 	letter-spacing : normal;
 }
 
@@ -78,7 +78,7 @@ body {
 	width: 20%;
 	height: 75px;
 	border: 0;
-	background: url("../../img/interface/logo.png") no-repeat 10px top;
+	background: url("../img/interface/logo.png") no-repeat 10px top;
 }
 
 /* main
@@ -98,26 +98,26 @@ body {
  		margin: 0 3em;
 		font-size: 100%;
 	}
-	
+
 	#main .topic-path {
 		font-size: 80%;
 		margin: 0 0 0.7em 6%;
 		color: #999;
 	}
-	
+
 	#main h1.title {
 		font-weight: 700;
 		font-size: 150%;
 		margin: 0 0 0.33em 6%;
 		color: #777;
 	}
-	
+
 	#main div.rs-copyright {
 		color: red;
 		font-size: 85%;
 		line-height: 120%;
 	}
-	
+
 	#main div.indent-content {
 		margin: 0 0 0 15px;
 	}
@@ -147,7 +147,7 @@ body {
 		color: #DDD;
 		background-color: #b06040;
 	}
-	
+
 	.fbody {
 		text-align: left;
 		padding: 10px 10px 10px 10px;
