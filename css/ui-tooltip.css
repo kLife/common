@@ -2,7 +2,7 @@
  * 参考:
  * 四つ葉日記 Item Data Base
  * http://dl.dropboxusercontent.com/u/70568694/ItemDataBase/DataBaseIndex.html
- * 
+ *
  * 四つ葉日記
  * http://yotsubadiary3.blog.fc2.com/
 ------------------------------------------------------------ */
@@ -26,7 +26,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-topleft.gif");
+		background-image: url("../img/interface/tooltip-border-topleft.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-topright.gif");
+		background-image: url("../img/interface/tooltip-border-topright.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: no-repeat;
@@ -50,7 +50,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-bottomleft.gif");
+		background-image: url("../img/interface/tooltip-border-bottomleft.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-bottomright.gif");
+		background-image: url("../img/interface/tooltip-border-bottomright.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-top.gif");
+		background-image: url("../img/interface/tooltip-border-top.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: repeat-x;
@@ -85,7 +85,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-bottom.gif");
+		background-image: url("../img/interface/tooltip-border-bottom.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: repeat-x;
@@ -96,7 +96,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-left.gif");
+		background-image: url("../img/interface/tooltip-border-left.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: repeat-y;
@@ -107,7 +107,7 @@
 		background-clip: border-box;
 		background-origin: padding-box;
 		background-color: transparent;
-		background-image: url("../../img/interface/tooltip-border-right.gif");
+		background-image: url("../img/interface/tooltip-border-right.gif");
 		background-position: 0px 0px;
 		background-size: auto auto;
 		background-repeat: repeat-y;
