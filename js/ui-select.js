@@ -358,7 +358,8 @@
 
 				that.setSelectText(option.value);
 			}).on("mouseleave", "ul li", function(ev, isTriggered) {
-				if (this.isOpen) {
+				if (that.isOpen) {
+					console.log(12312);
 					that.setSelectText(that.getSelectedValue());
 				}
 			});
