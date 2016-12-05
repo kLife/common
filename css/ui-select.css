@@ -37,11 +37,11 @@
 		background-color: #ddd;
 		border-style: inset;
 	}
-	
+
 	.ui-select-select.ui-select-open {
 		background-color: #edc;
 	}
-	
+
 	/* セレクトアイコン
 ------------------------------------------------------------ */
 	.ui-select-icon {
@@ -53,11 +53,11 @@
 		color: #79A;
 		font-size: 80%;
 	}
-	
+
 	.ui-select-select:hover .ui-select-icon {
 		color: #9BC;
 	}
-	
+
 	/* リスト
 ------------------------------------------------------------ */
 	.ui-select-list {
@@ -74,28 +74,28 @@
 		cursor: default;
 		display: none;
 		z-index: 3000;
-		
+
 		-moz-user-select:-moz-none;
 		-ms-user-select:none;
 		-webkit-user-select:none;
 		user-select:none;
-		
+
 		-webkit-box-shadow: 0px 8px 17px 0 rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
 		box-shadow: 0px 8px 17px 0 rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
 	}
-	
+
 		/* グループ
 ------------------------------------------------------------ */
 		.ui-select-wrapper {
 			margin: 2px 0 3px 1px;
 			padding: 0;
 		}
-		
+
 		.ui-select-group {
 			margin: 2px 0 3px 1px;
 			padding: 0;
 		}
-		
+
 			/* タイプ
 ------------------------------------------------------------ */
 			.ui-select-type {
@@ -112,7 +112,7 @@
 				color: #333;
 				overflow: hidden;
 			}
-			
+
 			/* オプション
 ------------------------------------------------------------ */
 			.ui-select-options {
@@ -122,7 +122,7 @@
 				overflow: hidden;
 				font-size: 90%;
 			}
-			
+
 				.ui-select-options li {
 					color: #000;
 					background-color: #eee;
@@ -136,21 +136,21 @@
 					cursor: pointer;
 					overflow: hidden;
 				}
-				
+
 				.ui-select-options li:hover {
 					border-color: #ccc;
 					background-color: #ddd;
 				}
-				
+
 				.ui-select-options li.ui-select-selected {
 					border-color: #789;
 					background-color: #d5d5d5;
 				}
-				
+
 				.ui-select-options li img {
 					vertical-align: top;
 				}
-				
+
 		/* ページ送り
 ------------------------------------------------------------ */
 		.ui-select-page-form {
@@ -187,13 +187,13 @@
 			.ui-select-page-right:active {
 				background-color: #ccc;
 			}
-			
+
 			.ui-select-page-left.ui-select-page-disable,
 			.ui-select-page-right.ui-select-page-disable {
 				visibility: hidden;
 			}
-		
-		
+
+
 		/* パネル
 ------------------------------------------------------------ */
 		.ui-select-list.ui-select-panel-view .ui-select-options li {
@@ -201,7 +201,7 @@
 			height: 48px;
 			text-align: center;
 		}
-		
+
 		.ui-select-list.ui-select-panel-view .ui-select-options li img {
 			display: block;
 			width: 26px;
@@ -209,5 +209,3 @@
 			margin: 2px auto;
 			opacity: 0.9;
 		}
-		
-		
