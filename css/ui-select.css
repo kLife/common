@@ -202,10 +202,14 @@
 			text-align: center;
 		}
 
-		.ui-select-list.ui-select-panel-view .ui-select-options li img {
+		.ui-select-list.ui-select-panel-view .ui-select-options li div {
 			display: block;
 			width: 26px;
-			heght: 26px;
+			height: 26px;
 			margin: 2px auto;
 			opacity: 0.9;
+		}
+
+		.ui-select-list.ui-select-panel-view .ui-select-options li div img {
+			width: 100%;
 		}

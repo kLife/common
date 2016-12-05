@@ -282,8 +282,15 @@
 						groupIndex: i,
 						optionIndex: j
 					};
-					strOptions += "<li style='width:" + this.options.optionWidth + "px'>" +
-						strOpIcon + " " + option.value + "</li>";
+
+					if (this.options.isPanelView) {
+						strOptions += "<li style='width:" + this.options.optionWidth + "px'>" +
+							"<div>" + strOpIcon + "</div>" + option.value + "</li>";
+					} else {
+						strOptions += "<li style='width:" + this.options.optionWidth + "px'>" +
+							strOpIcon + " " + option.value + "</li>";
+					}
+
 				}
 
 				strOpContainer = "<ul class='ui-select-options'>" + strOptions + "</ul>";
