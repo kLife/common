@@ -287,7 +287,8 @@
 				}
 
 				strOpContainer = "<ul class='ui-select-options'>" + strOptions + "</ul>";
-				strGroups += "<li class='ui-select-group'>" + strType + strOpContainer + "</li>";
+				strGroups += "<li class='ui-select-group' " + (options.length == 0 ? "style='display: none'" : "") + ">" +
+					strType + strOpContainer + "</li>";
 			}
 
 			this.$groupWrapper.html(strGroups)
@@ -337,7 +338,6 @@
 				$this.addClass("ui-select-selected");
 
 				that.selectedKey = option.key;
-				that.setSelectText(option.value);
 				that.setSelectText(that.getSelectedValue());
 				that.close();
 				that.options.onClick_option(option.key, option.value, isTriggered);
@@ -351,7 +351,9 @@
 
 				that.setSelectText(option.value);
 			}).on("mouseleave", "ul li", function(ev, isTriggered) {
-				that.setSelectText(that.getSelectedValue());
+				if (this.isOpen) {
+					that.setSelectText(that.getSelectedValue());
+				}
 			});
 
 			// page form
